@@ -1,0 +1,134 @@
+/********************************
+Bootstrap Variables Override
+**********************************/
+:root {
+    /* Replace your primary color from your UI Kit */
+    --bs-primary: #541623;
+    --bs-primarydark: #310911;
+    --bs-primarylight: #950120;
+
+    /* Replace your secondary color from your UI Kit  */
+    --secondary-color: #E9F8FF;
+    --secondary-colordark: #C0EAFF;
+    --secondary-colorlight: #F8FDFF;
+
+    /* Replace the main body font from your UI Kit */
+    --bs-font-sans-serif: 'Roboto', sans-serif;
+
+}
+
+/********************************
+Global Styles and UI Components
+**********************************/
+.navbar {
+    /* Optional: Make the navbar background transparent */
+    background-color: var(--secondary-color);
+
+    /* Optional: Move the navbar is positioned over the hero */
+    position: absolute;
+
+    /* Optional: Stretch the navbar across the full width */
+    width: 100%;
+
+    /* Optional: Add inner spacing to the navbar */
+    padding: 1rem;
+}
+
+body {
+    background-color: white;
+  }
+  h1 {
+    color: var(--bs-primary);
+  }
+  p {
+    color: var(--bs-primary);
+  }
+
+footer {
+    /* Change footer background color */
+    background-color: var(--bs-primary);
+    /* Optional: Change footer text color to white using variable */
+    color: var(--bs-white);
+    /* Optional: Center footer elements */
+    text-align: center;
+}
+
+footer .footer-social {
+    /* Optional: Change size of footer icon */
+    width:24px;
+    margin:.5rem
+}
+
+.btn-primary {
+    /* Optional: Change primary button background color to primary color */
+    background-color: var(--bs-primary);
+    /* Optional: Remove primary button outline */
+    border: none;
+}
+
+.btn-primary:hover {
+    /* Optional: Change primary button hover state background and text color  */
+    background-color: var(--bs-primarydark);
+    color: var(--bs-white);
+}
+
+.btn-secondary {
+    /* Optional: Change primary button background color to primary color */
+    background-color: var(--secondary-color);
+    color: var(--bs-dark);
+    border: none;
+}
+
+.btn-secondary:hover {
+    /* Optional: Change primary button hover state background and text color  */
+    background-color: var(--secondary-colordark);
+    color: var(--bs-dark);
+}
+
+/********************************
+Typography
+**********************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* Optional: Add letter spacing to all headings */
+    letter-spacing: -0.05rem;
+    /* Optional: Adjust font-weight to all headings */
+    font-weight: 700;
+}
+
+
+.display-1 {
+    /* Optional: Customizes display-1 style based on my Figma UI kit */
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 100%;
+    letter-spacing: -0.2rem;
+}
+
+.display-2 {
+    /* Optional: Customizes display-2 style based on my Figma UI kit */
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 100%;
+    letter-spacing: -0.2rem;
+}
+
+.kicker {
+    /* Optional: Establish new custom text style class called "kicker" */
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Optional: Customize responsive style for display-1 on small devices and larger */
+    .display-1 {
+        font-size: 4rem;
+    }
+}
+
