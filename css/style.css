@@ -22,28 +22,23 @@ Global Styles and UI Components
 **********************************/
 
 .navbar {
-    /* Optional: Make the navbar background transparent */
-    background-color: var(--secondary-color);
-
-    /* Optional: Move the navbar is positioned over the hero */
-    position: absolute;
-
-    /* Optional: Stretch the navbar across the full width */
+    height: 60px;
     width: 100%;
-
-    /* Optional: Add inner spacing to the navbar */
-    padding: 1rem;
+    background-color: var(--secondary-color);
+    position: absolute;
+    width: 100%;
+    padding-left: 3rem;
 }
 
-body 
-  h1 {
-    color: var(--bs-white);
-  }
+.body {
+    padding-top: 700px;
+}
+  
   a {
     color: var(--bs-primary);
   }
 
-footer {
+.footer {
     /* Change footer background color */
     background-color: var(--bs-primary);
     /* Optional: Change footer text color to white using variable */
@@ -87,16 +82,32 @@ footer .footer-social {
 /********************************
 Typography
 **********************************/
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+    letter-spacing: -0.05rem;
+    font-weight: bold;
+}
+h2 {
+    letter-spacing: -0.05rem;
+    font-weight: bold;
+}
+h3 {
+    color: var(--bs-primary);
+    letter-spacing: -0.05rem;
+    font-weight: bold;
+}
+h4 {
+    letter-spacing: -0.05rem;
+    font-weight: 300;
+} 
+h5 {
+    letter-spacing: -0.05rem;
+    font-weight: 200;
+}
 h6 {
     /* Optional: Add letter spacing to all headings */
     letter-spacing: -0.05rem;
     /* Optional: Adjust font-weight to all headings */
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
