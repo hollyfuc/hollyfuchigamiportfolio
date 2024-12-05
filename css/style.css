@@ -20,6 +20,7 @@ Bootstrap Variables Override
 /********************************
 Global Styles and UI Components
 **********************************/
+
 .navbar {
     /* Optional: Make the navbar background transparent */
     background-color: var(--secondary-color);
@@ -34,11 +35,9 @@ Global Styles and UI Components
     padding: 1rem;
 }
 
-body {
-    background-color: white;
-  }
+body 
   h1 {
-    color: var(--bs-primary);
+    color: var(--bs-white);
   }
   a {
     color: var(--bs-primary);
