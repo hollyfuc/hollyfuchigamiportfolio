@@ -28,10 +28,11 @@ Global Styles and UI Components
     position: absolute;
     width: 100%;
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
-.body {
-    padding-top: 700px;
+.hero {
+    padding-top: 60px;
 }
   
   a {
@@ -141,4 +142,6 @@ h6 {
         font-size: 4rem;
     }
 }
+
+
 
