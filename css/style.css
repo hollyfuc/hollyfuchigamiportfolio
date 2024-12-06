@@ -7,6 +7,9 @@ Bootstrap Variables Override
     --bs-primarydark: #310911;
     --bs-primarylight: #950120;
 
+    /* Noticed that this is also needed to replaces default blue as primary color (ex. in footer on subpages); uses rbg, not hex format of color */
+    --bs-primary-rgb: 84, 22, 35;
+
     /* Replace your secondary color from your UI Kit  */
     --secondary-color: #E9F8FF;
     --secondary-colordark: #C0EAFF;
@@ -20,6 +23,10 @@ Bootstrap Variables Override
 /********************************
 Global Styles and UI Components
 **********************************/
+
+.bg-primary {
+    background-color: #541623
+}
 
 .navbar {
     height: 60px;
